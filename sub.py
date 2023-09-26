@@ -3,9 +3,9 @@ import spotipy
 import webbrowser
 
 
-username = 'SpotifyAudioPython'
-clientID = '17c8b957f3454a57bc7a20f988a1630e'
-clientSecret = '6b627f706f4545259929db1121d1617c'
+username = ''
+clientID = ''
+clientSecret = ''
 redirect_uri = 'http://google.com/callback/'
 oauth_object = spotipy.SpotifyOAuth(clientID, clientSecret, redirect_uri)
 token_dict = oauth_object.get_access_token()
